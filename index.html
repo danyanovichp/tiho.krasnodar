@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5c846">
+  <meta name="description" content="ТИХО — блины, пахлава и горячая еда рядом с парком Краснодар. Мини-каталог проекта.">
+  <title>ТИХО — вкусно по пути</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#top" aria-label="ТИХО — на главную">ТИХО<span>★</span></a>
+    <nav aria-label="Основная навигация"><a href="#catalog">Меню</a><a href="#about">О нас</a><a href="#contacts">Найти нас</a></nav>
+    <a class="top-cta" href="#catalog">Смотреть меню <span>↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="spark">✳</span> Краснодар · рядом с парком</p>
+        <h1>ВКУСНО<br>ПО ПУТИ<span class="dot">.</span></h1>
+        <p class="hero-lead">Блины, пахлава и горячая еда. Загляни в меню — вдруг ты уже рядом.</p>
+        <a class="button button-dark" href="#catalog">Открыть меню <span>↓</span></a>
+        <span class="hero-note">Короткий каталог ТИХО</span>
+      </div>
+      <div class="hero-art" aria-label="Иллюстрация пахлавы">
+        <div class="sunburst"></div><div class="plate"><div class="baklava"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <span class="art-sticker">ПАХЛАВА<br>300 ₽</span><span class="orbit-text">СЛАДКОЕ ДЕЛО · ТИХО ·</span>
+      </div>
+      <div class="hero-band"><span>БЛИНЫ ✳ ПАХЛАВА ✳ ШАУРМА</span><span>СОБРАНО С ТЕПЛОМ ✳ КРАСНОДАР</span></div>
+    </section>
+
+    <section class="catalog shell" id="catalog">
+      <div class="section-heading"><div><p class="eyebrow">ЧТО СЕГОДНЯ?</p><h2>МЕНЮ<span class="dot">.</span></h2></div><p>Листай, выбирай,<br>сохраняй любимое <span>♥</span></p></div>
+      <div class="filters" role="group" aria-label="Фильтр категорий">
+        <button class="filter active" data-filter="all">Всё меню</button><button class="filter" data-filter="hot">Горячее</button><button class="filter" data-filter="blini">Блины</button><button class="filter" data-filter="sweet">Сладкое</button>
+      </div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <p class="menu-note">Состав и наличие уточняйте в точке. Меню — короткий путеводитель, цены могут обновляться.</p>
+    </section>
+
+    <section class="about shell" id="about">
+      <div class="about-stamp">ТИХО<br>СВОЁ<br>МЕСТО</div>
+      <div><p class="eyebrow">НЕБОЛЬШАЯ ТОЧКА. БОЛЬШОЙ АППЕТИТ.</p><h2>ТИХО — ЭТО<br>ЕДА ПО СОСЕДСТВУ<span class="dot">.</span></h2><p>Мы — небольшой проект в Краснодаре. Готовим то, за чем приятно заглянуть по пути: блины, горячее и пахлаву. Нас ищут в районе парка Краснодар — точный адрес скоро добавим.</p></div>
+    </section>
+
+    <section class="visit shell" id="contacts">
+      <div><p class="eyebrow">ЗАГЛЯДЫВАЙ</p><h2>ГДЕ МЫ?<br>ГДЕ-ТО РЯДОМ<span class="dot">.</span></h2><p>Краснодар, район парка Краснодар / Галицкого.<br>Точный адрес, часы и контакты добавим после подтверждения.</p></div>
+      <div class="map-card"><div class="map-grid"></div><div class="map-pin">ТИХО<span>★</span></div><span class="map-label">КРАСНОДАР</span><span class="map-caption">точная точка появится здесь</span></div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div class="footer-top"><a class="wordmark" href="#top">ТИХО<span>★</span></a><p>Небольшая точка еды<br>в Краснодаре</p><a href="#catalog" class="footer-up">Наверх ↑</a></div>
+    <div class="footer-bottom"><span>© ТИХО, 2026</span><div><button data-legal="privacy">Политика конфиденциальности</button><button data-legal="consent">Согласие на обработку данных</button><button data-legal="operator">Сведения об операторе</button><button data-legal="cookies">Cookie и статистика</button></div></div>
+    <p class="legal-placeholder">Юридические тексты — шаблоны для заполнения оператором до публикации. Сайт не использует формы, аналитику или сторонние cookie.</p>
+  </footer>
+
+  <dialog id="product-dialog" class="product-dialog"><button class="dialog-close" aria-label="Закрыть">×</button><div class="dialog-media"></div><div class="dialog-copy"><p class="eyebrow dialog-category"></p><h2 class="dialog-title"></h2><strong class="dialog-price"></strong><p class="dialog-description"></p><p class="dialog-ingredients"></p><div class="gallery-controls"><button class="gallery-prev" aria-label="Предыдущий вид">←</button><span>Потяни или листай</span><button class="gallery-next" aria-label="Следующий вид">→</button></div><button class="like large-like">♡ <span>Нравится</span></button></div></dialog>
+  <dialog id="legal-dialog" class="legal-dialog"><button class="dialog-close" aria-label="Закрыть">×</button><p class="eyebrow">ТИХО · ИНФОРМАЦИЯ</p><h2></h2><div class="legal-copy"></div><p class="legal-warning">Рабочий шаблон: перед публикацией заполнить реквизиты, сроки хранения, порядок обращения и проверить фактические сервисы сайта.</p></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
