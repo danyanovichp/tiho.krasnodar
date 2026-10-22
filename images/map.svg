@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Как найти ТИХО</title><desc id="desc">Схема района Панорама с отметкой по адресу улица Героя Сарабеева, дом 5 корпус 5</desc>
+<rect width="900" height="520" fill="#f4ead5"/>
+<!-- neighborhood blocks -->
+<g fill="#e3d5b7" stroke="#d0bea0" stroke-width="2">
+ <path d="M26 28h184v104H26zM238 26h162v108H238zM520 25h156v108H520zM704 24h164v110H704z"/>
+ <path d="M34 170h180v104H34zM38 312h188v166H38zM268 34h130v85H268zM523 170h150v112H523zM704 174h158v104H704z"/>
+ <path d="M278 350h145v132H278zM482 350h180v132H482zM704 330h158v150H704z"/>
+</g>
+<g fill="#d6e0bd" stroke="#bccb9f" stroke-width="2">
+ <path d="M28 348c36-37 120-50 177-22 37 18 45 85 23 132-20 42-76 39-126 32-67-9-106-91-74-142z"/>
+ <path d="M708 294c35-27 97-27 153-7v34H708z"/>
+</g>
+<!-- park texture -->
+<g fill="#b5c58e" opacity=".78"><circle cx="72" cy="393" r="17"/><circle cx="112" cy="428" r="14"/><circle cx="154" cy="389" r="19"/><circle cx="191" cy="443" r="15"/><circle cx="88" cy="466" r="13"/></g>
+<!-- streets -->
+<g fill="none" stroke-linecap="round">
+ <path d="M0 148h900" stroke="#fffaf0" stroke-width="52"/><path d="M0 148h900" stroke="#d9c8a8" stroke-width="2" stroke-dasharray="11 14"/>
+ <path d="M452 0v520" stroke="#fffaf0" stroke-width="47"/><path d="M452 0v520" stroke="#d9c8a8" stroke-width="2" stroke-dasharray="11 14"/>
+ <path d="M0 291h900" stroke="#fffaf0" stroke-width="38"/><path d="M0 291h900" stroke="#d9c8a8" stroke-width="2" stroke-dasharray="10 13"/>
+ <path d="M224 0v520" stroke="#fffaf0" stroke-width="30"/><path d="M224 0v520" stroke="#d9c8a8" stroke-width="2" stroke-dasharray="9 12"/>
+</g>
+<!-- park and district labels -->
+<g font-family="Arial,sans-serif" fill="#5a6544" font-weight="700" letter-spacing="2"><text x="48" y="375" font-size="14">ПАРК КРАСНОДАР</text><text x="47" y="407" font-size="12" font-weight="500" letter-spacing="1">ЮЖНЕЕ ТИХО</text></g>
+<g font-family="Arial,sans-serif" fill="#76674e" font-size="12" font-weight="700" letter-spacing="1.5"><text x="35" y="142">УЛ. ГЕРОЯ САРАБЕЕВА В.И.</text><text x="479" y="141">РАЙОН ПАНОРАМА</text></g>
+<!-- exact location marker on the address block -->
+<rect x="479" y="183" width="34" height="62" rx="4" fill="#c7a76f" stroke="#a98752" stroke-width="2"/>
+<g transform="translate(496 184)"><path d="M0 0c-23 0-38 16-38 37 0 30 38 69 38 69s38-39 38-69C38 16 23 0 0 0z" fill="#983c31" stroke="#fff8e8" stroke-width="5"/><circle cy="36" r="13" fill="#fff8e8"/><text x="0" y="41" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="700" fill="#983c31">Т</text></g>
+<g transform="translate(546 205)"><rect width="248" height="77" rx="8" fill="#fff9eb" stroke="#983c31" stroke-width="2"/><text x="18" y="30" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#983c31">ТИХО</text><text x="18" y="55" font-family="Arial,sans-serif" font-size="15" fill="#302a24">Героя Сарабеева, 5к5</text></g>
+<g transform="translate(817 31)" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#5c503e"><path d="M16 36V0l-13 20h26z" fill="#5c503e"/><text x="16" y="56" text-anchor="middle">С</text></g>
+<text x="36" y="501" font-family="Arial,sans-serif" font-size="11" fill="#796b55" letter-spacing="1">СХЕМА РАЙОНА · НЕ В МАСШТАБЕ</text>
+</svg>
