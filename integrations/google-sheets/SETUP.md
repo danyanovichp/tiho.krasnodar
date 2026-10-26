@@ -1,5 +1,10 @@
 # Подключение планов самовывоза
 
+Текущее развертывание обновлено 23.10.2026, версия 2 (тёплые тексты формы). Адрес формы:
+https://script.google.com/macros/s/AKfycbwGfDvPEXYJNG6DngjgwTUVUt-2tX-zbq8s8U7Ncx5w_Yl7kNyJAdAAaSukWppDCclA/exec
+
+Он уже указан в `site-config.js`. Реальная запись и обновление без дубля проверены; тестовая строка очищена, сводка обнулена. Ниже — инструкция повторного подключения/обновления.
+
 Таблица уже создана: https://docs.google.com/spreadsheets/d/19fZ-bLDrnJ99Fl0NCMYmGoCMpF5bYbEvqN2iUJxIQvA/edit
 
 1. Откройте таблицу → Расширения → Apps Script.
