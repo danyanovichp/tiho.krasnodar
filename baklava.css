@@ -4,3 +4,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 .plan-embed iframe{height:1450px!important}
+
+.footer-legal a{display:inline-flex;align-items:center;min-height:44px;font-size:14px;text-align:left}
