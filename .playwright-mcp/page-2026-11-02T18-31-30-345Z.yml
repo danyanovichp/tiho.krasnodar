@@ -1,0 +1,162 @@
+- generic [active] [ref=f22e1]:
+  - banner [ref=f22e2]:
+    - link "ТИХО — на главную" [ref=f22e3] [cursor=pointer]:
+      - /url: "#top"
+      - img "ТИХО" [ref=f22e4]
+    - navigation "Основная навигация" [ref=f22e5]:
+      - link "Где купить" [ref=f22e6] [cursor=pointer]:
+        - /url: "#location"
+      - link "Планирую зайти" [ref=f22e7] [cursor=pointer]:
+        - /url: "#preorder"
+  - main [ref=f22e8]:
+    - region [ref=f22e9]:
+      - generic [ref=f22e10]:
+        - paragraph [ref=f22e11]: ТИХО · Краснодар
+        - heading [level=1] [ref=f22e12]:
+          - text: Свежая пахлава.
+          - emphasis [ref=f22e13]: Маленькие радости.
+        - paragraph [ref=f22e14]: Коробочка к чаю — для себяи тех, кого хочется порадовать.
+        - generic [ref=f22e15]:
+          - generic [ref=f22e16]:
+            - strong [ref=f22e17]: 300 ₽
+            - generic [ref=f22e18]: за коробочку
+          - link "Где купить" [ref=f22e19] [cursor=pointer]:
+            - /url: "#location"
+            - text: Где купить
+            - generic [aria-hidden] [ref=f22e20]: →
+      - figure "Хорошим хочется делиться." [ref=f22e21]:
+        - img "Свежая пальчиковая пахлава ТИХО" [ref=f22e22]
+    - region "О пахлаве" [ref=f22e24]:
+      - generic [ref=f22e25]:
+        - generic [ref=f22e26]:
+          - generic [ref=f22e27]: "01"
+          - generic [ref=f22e28]: Пальчиковая пахлава с кешью
+        - generic [ref=f22e29]:
+          - generic [ref=f22e30]: "02"
+          - generic [ref=f22e31]:
+            - strong [ref=f22e32]: 300 ₽
+            - text: за коробочку
+        - generic [ref=f22e33]:
+          - generic [ref=f22e34]: "03"
+          - generic [ref=f22e35]: Сенной рынок место № 8
+      - navigation "Социальные сети ТИХО" [ref=f22e36]:
+        - generic [ref=f22e37]: Мы на связи
+        - link "Instagram ↗" [ref=f22e38] [cursor=pointer]:
+          - /url: https://www.instagram.com/tiho.krasnodar/
+        - link "Threads ↗" [ref=f22e39] [cursor=pointer]:
+          - /url: https://www.threads.com/@tiho.krasnodar
+        - link "Telegram ↗" [ref=f22e40] [cursor=pointer]:
+          - /url: https://t.me/tiho_krd
+    - region [ref=f22e41]:
+      - generic [ref=f22e42]:
+        - paragraph [ref=f22e43]: Два места в Краснодаре
+        - heading "Где купить" [level=2] [ref=f22e44]
+      - generic [ref=f22e45]:
+        - article [ref=f22e46]:
+          - generic [ref=f22e47]: 01 · СЕННОЙ РЫНОК
+          - generic [ref=f22e48]:
+            - heading "Сенной рынок" [level=3] [ref=f22e49]
+            - paragraph [ref=f22e50]: Место № 8, возле конфет.
+          - generic [ref=f22e51]:
+            - link "На карте ↗" [ref=f22e52] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/?text=Сенной%20рынок%20Краснодар
+            - link "Планирую зайти →" [ref=f22e53] [cursor=pointer]:
+              - /url: "#preorder"
+        - article [ref=f22e54]:
+          - generic [ref=f22e55]: 02 · САРАБЕЕВА
+          - generic [ref=f22e56]:
+            - heading "Героя Сарабеева, 5к5" [level=3] [ref=f22e57]
+            - paragraph [ref=f22e58]: Пахлава, блины и горячее.
+          - generic [ref=f22e59]:
+            - link "Посмотреть меню →" [ref=f22e60] [cursor=pointer]:
+              - /url: sarabeeva.html
+            - link "На карте ↗" [ref=f22e61] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/35/krasnodar/house/ulitsa_im_geroya_sarabeyeva_v_i_5k5/Z0AYdgRhT0UGQFpvfXx0dX1lbA==/
+    - region [ref=f22e62]:
+      - generic [ref=f22e63]:
+        - paragraph [ref=f22e64]: Если собираетесь на Сенной
+        - heading "Подскажите, когда заглянете." [level=2] [ref=f22e65]: Подскажите,когда заглянете.
+        - paragraph [ref=f22e66]: "Оставьте заявку на Сенной рынок: мы свяжемся с вами, чтобы подтвердить наличие."
+      - generic [ref=f22e67]:
+        - iframe [ref=f22e68]:
+          - table [ref=f23e2]:
+            - rowgroup [ref=f23e3]:
+              - row:
+                - cell
+              - row [ref=f23e4]:
+                - cell [ref=f23e5]:
+                  - iframe [ref=f23e6]:
+                    - iframe [ref=f24e2]:
+                      - generic [ref=f25e2]:
+                        - heading "Когда заглянете?" [level=3] [ref=f25e3]
+                        - group "Когда планируете зайти?" [ref=f25e4]:
+                          - generic [ref=f25e6]:
+                            - generic [ref=f25e7] [cursor=pointer]:
+                              - radio "Сегодня" [checked] [ref=f25e8]
+                              - generic [ref=f25e9]: Сегодня
+                            - generic [ref=f25e10] [cursor=pointer]:
+                              - radio "Завтра" [ref=f25e11]
+                              - generic [ref=f25e12]: Завтра
+                        - group "Сколько коробочек?" [ref=f25e13]:
+                          - generic [ref=f25e15]:
+                            - button "Уменьшить количество" [disabled] [ref=f25e16]: −
+                            - spinbutton "Количество коробок" [ref=f25e17]: "1"
+                            - button "Увеличить количество" [ref=f25e18] [cursor=pointer]: +
+                        - generic [ref=f25e19]:
+                          - generic [ref=f25e20]: 300 ₽ за коробочку
+                          - strong [ref=f25e21]: 300 ₽
+                        - generic [ref=f25e22]:
+                          - text: Ваше имя
+                          - textbox "Ваше имя" [ref=f25e23]
+                        - generic [ref=f25e24]:
+                          - text: Номер телефона
+                          - textbox "Номер телефона" [ref=f25e25]
+                        - generic [ref=f25e26]:
+                          - text: Время получения
+                          - textbox "Время получения" [ref=f25e27]
+                        - generic [ref=f25e28]:
+                          - text: Комментарий (необязательно)
+                          - textbox "Комментарий (необязательно)" [ref=f25e29]
+                        - group [ref=f25e30]:
+                          - generic "Согласие на обработку персональных данных" [ref=f25e31]
+                        - paragraph [ref=f25e32]:
+                          - link "Текст согласия ↗" [ref=f25e33] [cursor=pointer]:
+                            - /url: https://green-corner.ru/consent.html
+                          - text: ·
+                          - link "Персональные данные и cookie ↗" [ref=f25e34] [cursor=pointer]:
+                            - /url: https://green-corner.ru/privacy.html
+                        - generic [ref=f25e35]:
+                          - checkbox "Даю согласие на обработку персональных данных для заявки и связи со мной." [ref=f25e36]
+                          - generic [ref=f25e37]: Даю согласие на обработку персональных данных для заявки и связи со мной.
+                        - generic [aria-hidden] [ref=f25e38]:
+                          - text: Не заполнять
+                          - textbox [ref=f25e39]
+                        - button "Подключаем форму…" [disabled] [ref=f25e40]
+                        - paragraph [ref=f25e41]: Мы свяжемся, чтобы подтвердить заявку.
+                        - paragraph [ref=f25e42]: Без оплаты. Заявка не является бронью до подтверждения.
+                        - paragraph [ref=f25e43]: Если планы изменились, их можно отправить заново с того же устройства.
+                        - paragraph [ref=f25e44]:
+                          - link "Написать нам в Telegram ↗" [ref=f25e45] [cursor=pointer]:
+                            - /url: https://t.me/danyanovich
+        - group [ref=f22e69]:
+          - generic "Форма не открылась?" [ref=f22e70] [cursor=pointer]
+  - contentinfo [ref=f22e71]:
+    - generic [ref=f22e72]:
+      - paragraph [ref=f22e73]:
+        - text: ТИХО · Краснодар
+        - generic [ref=f22e74]: © 2026
+      - link "Задать вопрос ↗" [ref=f22e75] [cursor=pointer]:
+        - /url: https://t.me/danyanovich
+    - navigation "Социальные сети" [ref=f22e76]:
+      - link "Instagram ↗" [ref=f22e77] [cursor=pointer]:
+        - /url: https://www.instagram.com/tiho.krasnodar/
+      - link "Threads ↗" [ref=f22e78] [cursor=pointer]:
+        - /url: https://www.threads.com/@tiho.krasnodar
+      - link "Telegram ↗" [ref=f22e79] [cursor=pointer]:
+        - /url: https://t.me/tiho_krd
+    - generic [ref=f22e80]:
+      - link "Персональные данные и cookie" [ref=f22e81] [cursor=pointer]:
+        - /url: privacy.html
+      - link "Согласие на обработку данных" [ref=f22e82] [cursor=pointer]:
+        - /url: consent.html
+      - button "Сведения об операторе" [ref=f22e83] [cursor=pointer]

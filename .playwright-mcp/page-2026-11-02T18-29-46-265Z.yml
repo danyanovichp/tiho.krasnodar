@@ -1,0 +1,103 @@
+- generic [active] [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - link "ТИХО — на главную" [ref=f18e3] [cursor=pointer]:
+      - /url: "#top"
+      - img "ТИХО" [ref=f18e4]
+    - navigation "Основная навигация" [ref=f18e5]:
+      - link "Где купить" [ref=f18e6] [cursor=pointer]:
+        - /url: "#location"
+      - link "Планирую зайти" [ref=f18e7] [cursor=pointer]:
+        - /url: "#preorder"
+  - main [ref=f18e8]:
+    - region [ref=f18e9]:
+      - generic [ref=f18e10]:
+        - paragraph [ref=f18e11]: ТИХО · Краснодар
+        - heading [level=1] [ref=f18e12]:
+          - text: Свежая пахлава.
+          - emphasis [ref=f18e13]: Маленькие радости.
+        - paragraph [ref=f18e14]: Коробочка к чаю — для себяи тех, кого хочется порадовать.
+        - generic [ref=f18e15]:
+          - generic [ref=f18e16]:
+            - strong [ref=f18e17]: 300 ₽
+            - generic [ref=f18e18]: за коробочку
+          - link "Где купить" [ref=f18e19] [cursor=pointer]:
+            - /url: "#location"
+            - text: Где купить
+            - generic [aria-hidden] [ref=f18e20]: →
+      - figure "Хорошим хочется делиться." [ref=f18e21]:
+        - img "Свежая пальчиковая пахлава ТИХО" [ref=f18e22]
+    - region "О пахлаве" [ref=f18e24]:
+      - generic [ref=f18e25]:
+        - generic [ref=f18e26]:
+          - generic [ref=f18e27]: "01"
+          - generic [ref=f18e28]: Пальчиковая пахлава с кешью
+        - generic [ref=f18e29]:
+          - generic [ref=f18e30]: "02"
+          - generic [ref=f18e31]:
+            - strong [ref=f18e32]: 300 ₽
+            - text: за коробочку
+        - generic [ref=f18e33]:
+          - generic [ref=f18e34]: "03"
+          - generic [ref=f18e35]: Сенной рынок место № 8
+      - navigation "Социальные сети ТИХО" [ref=f18e36]:
+        - generic [ref=f18e37]: Мы на связи
+        - link "Instagram ↗" [ref=f18e38] [cursor=pointer]:
+          - /url: https://www.instagram.com/tiho.krasnodar/
+        - link "Threads ↗" [ref=f18e39] [cursor=pointer]:
+          - /url: https://www.threads.com/@tiho.krasnodar
+        - link "Telegram ↗" [ref=f18e40] [cursor=pointer]:
+          - /url: https://t.me/tiho_krd
+    - region [ref=f18e41]:
+      - generic [ref=f18e42]:
+        - paragraph [ref=f18e43]: Два места в Краснодаре
+        - heading "Где купить" [level=2] [ref=f18e44]
+      - generic [ref=f18e45]:
+        - article [ref=f18e46]:
+          - generic [ref=f18e47]: 01 · СЕННОЙ РЫНОК
+          - generic [ref=f18e48]:
+            - heading "Сенной рынок" [level=3] [ref=f18e49]
+            - paragraph [ref=f18e50]: Место № 8, возле конфет.
+          - generic [ref=f18e51]:
+            - link "На карте ↗" [ref=f18e52] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/?text=Сенной%20рынок%20Краснодар
+            - link "Планирую зайти →" [ref=f18e53] [cursor=pointer]:
+              - /url: "#preorder"
+        - article [ref=f18e54]:
+          - generic [ref=f18e55]: 02 · САРАБЕЕВА
+          - generic [ref=f18e56]:
+            - heading "Героя Сарабеева, 5к5" [level=3] [ref=f18e57]
+            - paragraph [ref=f18e58]: Пахлава, блины и горячее.
+          - generic [ref=f18e59]:
+            - link "Посмотреть меню →" [ref=f18e60] [cursor=pointer]:
+              - /url: sarabeeva.html
+            - link "На карте ↗" [ref=f18e61] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/35/krasnodar/house/ulitsa_im_geroya_sarabeyeva_v_i_5k5/Z0AYdgRhT0UGQFpvfXx0dX1lbA==/
+    - region [ref=f18e62]:
+      - generic [ref=f18e63]:
+        - paragraph [ref=f18e64]: Если собираетесь на Сенной
+        - heading "Подскажите, когда заглянете." [level=2] [ref=f18e65]: Подскажите,когда заглянете.
+        - paragraph [ref=f18e66]: "Оставьте заявку на Сенной рынок: мы свяжемся с вами, чтобы подтвердить наличие."
+      - generic [ref=f18e67]:
+        - iframe [ref=f18e68]
+        - group [ref=f18e69]:
+          - generic "Форма не открылась?" [ref=f18e70] [cursor=pointer]
+  - contentinfo [ref=f18e71]:
+    - generic [ref=f18e72]:
+      - paragraph [ref=f18e73]:
+        - text: ТИХО · Краснодар
+        - generic [ref=f18e74]: © 2026
+      - link "Задать вопрос ↗" [ref=f18e75] [cursor=pointer]:
+        - /url: https://t.me/danyanovich
+    - navigation "Социальные сети" [ref=f18e76]:
+      - link "Instagram ↗" [ref=f18e77] [cursor=pointer]:
+        - /url: https://www.instagram.com/tiho.krasnodar/
+      - link "Threads ↗" [ref=f18e78] [cursor=pointer]:
+        - /url: https://www.threads.com/@tiho.krasnodar
+      - link "Telegram ↗" [ref=f18e79] [cursor=pointer]:
+        - /url: https://t.me/tiho_krd
+    - generic [ref=f18e80]:
+      - link "Персональные данные и cookie" [ref=f18e81] [cursor=pointer]:
+        - /url: privacy.html
+      - link "Согласие на обработку данных" [ref=f18e82] [cursor=pointer]:
+        - /url: consent.html
+      - button "Сведения об операторе" [ref=f18e83] [cursor=pointer]

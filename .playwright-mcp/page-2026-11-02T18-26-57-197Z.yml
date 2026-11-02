@@ -1,0 +1,91 @@
+- generic [active] [ref=f2e1]:
+  - navigation "Социальные сети ТИХО" [ref=f2e3]:
+    - link "Instagram ↗" [ref=f2e4] [cursor=pointer]:
+      - /url: https://www.instagram.com/tiho.krasnodar/
+    - link "Threads ↗" [ref=f2e5] [cursor=pointer]:
+      - /url: https://www.threads.com/@tiho.krasnodar
+    - link "Telegram ↗" [ref=f2e6] [cursor=pointer]:
+      - /url: https://t.me/tiho_krd
+  - banner [ref=f2e7]:
+    - link "ТИХО — на главную" [ref=f2e8] [cursor=pointer]:
+      - /url: "#top"
+      - img "ТИХО" [ref=f2e9]
+    - navigation "Основная навигация" [ref=f2e10]:
+      - link "Где купить" [ref=f2e11] [cursor=pointer]:
+        - /url: "#location"
+      - link "Планирую зайти" [ref=f2e12] [cursor=pointer]:
+        - /url: "#preorder"
+  - main [ref=f2e13]:
+    - region [ref=f2e14]:
+      - generic [ref=f2e15]:
+        - paragraph [ref=f2e16]: ТИХО · Краснодар
+        - heading [level=1] [ref=f2e17]:
+          - text: Свежая пахлава.
+          - emphasis [ref=f2e18]: Маленькие радости.
+        - paragraph [ref=f2e19]: Коробочка к чаю — для себяи тех, кого хочется порадовать.
+        - generic [ref=f2e20]:
+          - generic [ref=f2e21]:
+            - strong [ref=f2e22]: 300 ₽
+            - generic [ref=f2e23]: за коробочку
+          - link "Где купить" [ref=f2e24] [cursor=pointer]:
+            - /url: "#location"
+            - text: Где купить
+            - generic [aria-hidden] [ref=f2e25]: →
+      - figure "Хорошим хочется делиться." [ref=f2e26]:
+        - img "Свежая пальчиковая пахлава ТИХО" [ref=f2e27]
+    - generic [ref=f2e29]:
+      - generic [ref=f2e30]: Пальчиковая пахлава с кешью
+      - generic [ref=f2e31]: Один вид · продаём коробочками
+    - region [ref=f2e32]:
+      - generic [ref=f2e33]:
+        - paragraph [ref=f2e34]: Два места в Краснодаре
+        - heading "Где купить" [level=2] [ref=f2e35]
+      - generic [ref=f2e36]:
+        - article [ref=f2e37]:
+          - generic [ref=f2e38]:
+            - heading "Сенной рынок" [level=3] [ref=f2e39]
+            - paragraph [ref=f2e40]: Место № 8, возле конфет.
+          - generic [ref=f2e41]:
+            - link "На карте ↗" [ref=f2e42] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/?text=Сенной%20рынок%20Краснодар
+            - link "Планирую зайти →" [ref=f2e43] [cursor=pointer]:
+              - /url: "#preorder"
+        - article [ref=f2e44]:
+          - generic [ref=f2e45]:
+            - heading "Героя Сарабеева, 5к5" [level=3] [ref=f2e46]
+            - paragraph [ref=f2e47]: Пахлава, блины и горячее.
+          - generic [ref=f2e48]:
+            - link "Посмотреть меню →" [ref=f2e49] [cursor=pointer]:
+              - /url: sarabeeva.html
+            - link "На карте ↗" [ref=f2e50] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/35/krasnodar/house/ulitsa_im_geroya_sarabeyeva_v_i_5k5/Z0AYdgRhT0UGQFpvfXx0dX1lbA==/
+    - region [ref=f2e51]:
+      - generic [ref=f2e52]:
+        - paragraph [ref=f2e53]: Если собираетесь на Сенной
+        - heading "Подскажите, когда заглянете." [level=2] [ref=f2e54]: Подскажите,когда заглянете.
+        - paragraph [ref=f2e55]: "Оставьте заявку на Сенной рынок: мы свяжемся с вами, чтобы подтвердить наличие."
+      - generic [ref=f2e56]:
+        - iframe [ref=f2e57]:
+          - table [ref=f3e2]:
+            - rowgroup [ref=f3e3]:
+              - row:
+                - cell
+              - row [ref=f3e4]:
+                - cell [ref=f3e5]:
+                  - iframe [ref=f3e6]:
+                    - iframe [ref=f4e2]
+        - group [ref=f2e58]:
+          - generic "Форма не открылась?" [ref=f2e59] [cursor=pointer]
+  - contentinfo [ref=f2e60]:
+    - generic [ref=f2e61]:
+      - paragraph [ref=f2e62]:
+        - text: ТИХО · Краснодар
+        - generic [ref=f2e63]: © 2026
+      - link "Задать вопрос ↗" [ref=f2e64] [cursor=pointer]:
+        - /url: https://t.me/danyanovich
+    - generic [ref=f2e65]:
+      - link "Персональные данные и cookie" [ref=f2e66] [cursor=pointer]:
+        - /url: privacy.html
+      - link "Согласие на обработку данных" [ref=f2e67] [cursor=pointer]:
+        - /url: consent.html
+      - button "Сведения об операторе" [ref=f2e68] [cursor=pointer]
