@@ -22,6 +22,11 @@ function submitPlan(input) {
   const id = input.id;
   const day = input.day;
   const count = input.quantity;
+  const name = typeof input.name === 'string' ? input.name.trim() : '';
+  const phone = typeof input.phone === 'string' ? input.phone.trim() : '';
+  const time = typeof input.time === 'string' ? input.time : '';
+  const comment = typeof input.comment === 'string' ? input.comment.trim() : '';
+  if (!name || name.length > 100 || phone.length > 30 || (phone.match(/\d/g) || []).length < 10 || (phone.match(/\d/g) || []).length > 15 || !/^([01]\d|2[0-3]):[0-5]\d$/.test(time) || comment.length > 500 || input.consent !== true) throw new Error('Проверьте поля и согласие.');
   if (typeof id !== 'string' || !/^[a-f0-9-]{36}$/i.test(id) || !getPlanDays().includes(day)
       || !Number.isInteger(count) || count < 1 || count > 20) {
     throw new Error('Выберите сегодня или завтра и количество от 1 до 20 коробок.');
@@ -36,10 +41,13 @@ function submitPlan(input) {
     const found = rows.findIndex(row => row[4] === id);
     if (found >= 0 && String(rows[found][1]) !== day) throw new Error('Обновите страницу и выберите день заново.');
     const row = found >= 0 ? found + 2 : sheet.getLastRow() + 1;
+    const safe = value => /^[=+@\-\t\r]/.test(value) ? "'" + value : value;
     sheet.getRange(row, 1, 1, 2).setNumberFormat('@');
     sheet.getRange(row, 1, 1, 5).setValues([[
       Utilities.formatDate(new Date(), ZONE_, 'yyyy-MM-dd HH:mm:ss'), day, count, count * PRICE_, id
     ]]);
+    sheet.getRange(1, 6, 1, 6).setValues([['Имя', 'Телефон', 'Время получения', 'Комментарий', 'Согласие', 'Время согласия']]);
+    sheet.getRange(row, 6, 1, 6).setNumberFormat('@').setValues([[safe(name), safe(phone), time, safe(comment), 'v1', Utilities.formatDate(new Date(), ZONE_, 'yyyy-MM-dd HH:mm:ss')]]);
     // Повтор с тем же ID обновляет строку, а не создаёт вторую заявку.
     refreshSummary_(book);
     SpreadsheetApp.flush();
