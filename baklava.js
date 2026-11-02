@@ -9,7 +9,7 @@ const legal=document.querySelector('#legal-dialog');
 document.querySelectorAll('[data-legal]').forEach(button=>button.addEventListener('click',()=>{
  const operator=button.dataset.legal==='operator';
  document.querySelector('#legal-title').textContent=operator?'Сведения об операторе':'Политика конфиденциальности';
- document.querySelector('#legal-text').textContent=operator?'Для вопросов: Telegram @danyanovich. Юридическое наименование и реквизиты оператора уточняются.':'Форма планов самовывоза не запрашивает имя и телефон. В закрытую Google Таблицу владельца записываются день, количество коробок, сумма, время записи и случайный ID заявки. ID сохраняется в браузере, чтобы повторное нажатие обновляло запись вместо дубля; очистка данных браузера сбрасывает эту защиту. Форму обслуживает Google Apps Script. Технические журналы и обработка сетевых данных зависят от Google и хостинга сайта. Аналитика и рекламные cookie на сайте не подключены. Планы не являются бронью или оплаченным заказом.';
+ document.querySelector('#legal-text').textContent=operator?'ИП Ганоу Усама Исмаил. ИНН 910215466716, ОГРНИП 320911200086025. По вопросам персональных данных: green-corner-mail@yandex.ru.':'Заявка содержит имя, телефон, количество, день и время получения и комментарий. Данные записываются в Google Таблицу через Google Apps Script для связи по заявке. Обращения по данным: green-corner-mail@yandex.ru. Место хранения данных Google и сроки удаления уточняются. Заявка не является бронью до подтверждения.';
  legal.showModal();
 }));
 document.querySelector('#close-legal').addEventListener('click',()=>legal.close());
